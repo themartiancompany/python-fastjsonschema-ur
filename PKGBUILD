@@ -2,9 +2,10 @@
 
 _name=fastjsonschema
 pkgname=python-fastjsonschema
-_commit=4f11540d2e8f7c0aeae1230cdbc65a99f1b277c4 # refs/tags/v2.16.3
-pkgver=2.16.3
-pkgrel=4
+# NOTE: tagging a bit broken: https://github.com/horejsek/python-fastjsonschema/issues/172
+_commit=edcd9c8ffd7d3a37d8468ebda6a95d9868890deb # refs/tags/v.2.17.0
+pkgver=2.17.0
+pkgrel=1
 pkgdesc="Fast JSON schema validator for Python"
 arch=(any)
 url="https://github.com/horejsek/python-fastjsonschema"
