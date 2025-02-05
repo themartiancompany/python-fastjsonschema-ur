@@ -72,7 +72,7 @@ b2sums=(
 
 build() {
   cd \
-    "${_pkg}-${pkgver}"
+    "${pkgname}-${pkgver}"
   "${_py}" \
     -m \
       build \
@@ -82,7 +82,7 @@ build() {
 
 check() {
   cd \
-    "${_pkg}-${pkgver}"
+    "${pkgname}-${pkgver}"
   pytest \
     -vv \
       -m \
@@ -91,7 +91,7 @@ check() {
 
 package() {
   cd \
-    "${_pkg}-${pkgver}"
+    "${pkgname}-${pkgver}"
   "${_py}" \
     -m \
       installer \
